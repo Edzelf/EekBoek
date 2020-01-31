@@ -156,7 +156,7 @@ else
 }
 
 # Ga enige tabellen overzetten.
-if ( 0 )							# Versnellen t.b.v. debug
+if ( 1 )							# 0 = Versnellen t.b.v. debug
 {
   importtable ( "tblBtw" ) ;					# Neem BTW table over
   importtable ( "tblRelatie" ) ;				# Neem Relatie tabel over
